@@ -43,15 +43,11 @@ img {
   height: auto;
 }
 
-.hide {
-  display: none;
-}
 .container {
   min-width: 288px;
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
-  border: 1px solid red;
   @media screen and (min-width: 768px) {
     max-width: 768px;
   }
