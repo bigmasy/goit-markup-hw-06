@@ -496,7 +496,7 @@ img {
   }
 }
 .portfolio-item {
-  max-width: 264px;
+  max-width: 288px;
   margin: 0 auto;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -564,12 +564,12 @@ img {
 
 /* #region footer */
 .footer {
+  background-color: var(--navy-blue);
   @media screen and (min-width: px) {
     padding: 100px 0;
   }
 }
 .footer-container {
-  background-color: var(--navy-blue);
   color: var(--cloud);
   padding: 96px 0;
   display: flex;
@@ -712,7 +712,7 @@ img {
   }
 }
 .form-email {
-  width: 288;
+  width: 288px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
